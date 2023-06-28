@@ -1,7 +1,7 @@
 USE campuslands;
 
 CREATE TABLE campers(
-    idCamper VARCHAR(20) NOT NULL PRIMARY KEY,
+    idCamper INT NOT NULL PRIMARY KEY,
     nombreCamper VARCHAR(50) NOT NULL,
     apellidoCamper VARCHAR(50) NOT NULL,
     fechaNac DATE NOT NULL,
@@ -40,3 +40,6 @@ FOREIGN KEY (idDep) REFERENCES departamento(idDep);
 ALTER TABLE departamento
 ADD CONSTRAINT idPais 
 FOREIGN KEY (idPais) REFERENCES pais(idPais);
+
+ALTER TABLE campers 
+ADD COLUMN idCamper

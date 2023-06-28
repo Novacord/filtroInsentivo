@@ -41,5 +41,3 @@ ALTER TABLE departamento
 ADD CONSTRAINT idPais 
 FOREIGN KEY (idPais) REFERENCES pais(idPais);
 
-ALTER TABLE campers 
-ADD COLUMN idCamper

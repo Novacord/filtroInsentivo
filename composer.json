@@ -1,0 +1,22 @@
+{
+    "name": "apolt01-027/filtro",
+    "description": "...",
+    "license": "LTS",
+    "autoload": {
+        "psr-4": {
+            "App\\": [
+                "scripts/db"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "JoseDanielNovaMuñozCAMPUS",
+            "email": "josedanielnova2027@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "bramus/router": "~1.6"
+    }
+}
